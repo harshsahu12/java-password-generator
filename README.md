@@ -1,46 +1,47 @@
 # Java Password Generator
 
 ## Overview
- - Authentication and Authorization : In which user can signin and signup with JWT Auth provider and the info get stored in mongoDB database with the hashed password using bycrypt, so that no can login your account and you can update your given details
+ - The Java Password Generator is a command-line tool that allows you to generate highly secure passwords with customizable preferences. You can specify whether to include symbols, capital letters, numbers, and more. Additionally, it provides a strength checker to determine if the generated password is highly secure.
 
    <img src="https://github.com/harshsahu12/java-password-generator/assets/129574323/35f7cfca-16d6-4a99-ba7f-9977d6485cd1" width="500" />
 
 ## Features
 
-- Authentication and Authorization
-- Hashing password for security
-- Customize your personal login credential.
-- Intuitive interface for easy interaction.
+- Generate highly secure passwords based on user preferences.
+- Customize password length, including symbols, capital letters, and numbers.
+- Evaluate password strength for added security assurance.
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js and npm installed on your machine.
-
-### Installation
+### How to use
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/harshsahu12/mern-auth.git
+   git clone https://github.com/harshsahu12/java-password-generator.git
    
-2. Navigate to the project directory:
+2. Compile and run the Java program:
    ```bash
-   cd mern-auth
+   javac PasswordGenerator.java
+   java PasswordGenerator
    
-4. Install dependencies:
-   ```bash
-   npm install
+3. Follow the on-screen instructions to customize your password preferences.
 
-4. Usage
-   ```bash
-   npm start
-  - Open your browser and go to http://localhost:3000.
+4. The generated password and its strength will be displayed.
+
+## Technologies Used
+
+   - Java
 
 ## Contributing
 
-   - Contributions are welcome! If you find a bug or have an idea for an improvement, please open an issue or submit a pull request.
+   - If you'd like to contribute to this project, please follow these steps:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Make your changes and commit them with descriptive messages.
+    Push your changes to your fork.
+    Submit a pull request.
 
 ## License
 
